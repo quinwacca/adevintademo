@@ -25,7 +25,15 @@ StarRange.displayName = 'StarRange'
 
 // StarRange.contextTypes = {i18n: PropTypes.object}
 StarRange.propTypes = {
-  color: PropTypes.string.isRequired,
+  color: PropTypes.oneOf([
+    'mercury',
+    'venus',
+    'earth',
+    'mars',
+    'jupiter',
+    'saturn',
+    'uranus'
+  ]),
   min: PropTypes.number,
   max: PropTypes.number,
   size: PropTypes.string
