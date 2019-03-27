@@ -1,0 +1,5 @@
+return (<div>
+<BaconFrito name="SH1T!" size="xxl"/>
+<BaconFrito name="SH1T!" />
+</div>
+)
